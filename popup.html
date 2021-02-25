@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    :root {
+      --color_text: black;
+      --color_subtext: #595959;
+      --color_border: #dadada;
+      --color_background: white;
+    }
+
+    @font-face {
+      font-family: "MerriweatherSans";
+      src: url("./MerriweatherSans-Light.ttf") format("truetype");
+    }
+
+    body {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      width: 384px;
+      font-family: system-ui, sans-serif;
+    }
+
+    h1 {
+      font-family: "MerriweatherSans";
+      font-size: 33px;
+      font-weight: 400;
+      margin: 0;
+      padding: 15px;
+      text-align: center;
+      color: var(--color_text);
+    }
+
+    a:link, a:visited {
+      outline: 0;
+      text-decoration: none;
+      color: var(--color_text);
+    }
+
+    a:hover {
+      color: brown;
+    }
+
+    .modal-COURSE_NAME {
+      font-weight: 340;
+      font-size: 28px;
+      padding: 0 22px;
+      margin-bottom: -15px;
+      color: var(--color_text);
+      border-top: 1px solid var(--color_border);
+    }
+
+    .modal-ASSIGNMENT {
+      font-weight: 320;
+      font-size: 20px;
+      padding: 0 22px;
+      color: var(--color_subtext);
+    }
+
+    .modal-DATE {
+      margin-top: -15px;
+      font-size: 14px;
+      padding: 0 22px;
+      color: var(--color_subtext);
+    }
+
+    .modal-DATE-LAST {
+      margin-bottom: 30px;
+      margin-top: -15px;
+      font-size: 14px;
+      padding: 0 22px;
+      color: var(--color_subtext);
+    }
+
+  </style>
+</head>
+
+<body style="background-color: var(--color_background);">
+  <div class="modal-header">
+    <h1 class="logo">
+      Canvas Assignments <span class "version"></span>
+    </h1>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

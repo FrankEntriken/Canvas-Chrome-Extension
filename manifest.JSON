@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Canvas Assignment Calendar",
+  "description": "Shows student their assignments based on their enrolled courses on Canvas.",
+  "version": "1.0.0",
+  "icons": {"128": "icon_128.png"},
+  "browser_action": {
+    "default_popup": "popup.html"
+
+  },
+
+  "permissions": ["https://canvas.chapman.edu/"]
+}
