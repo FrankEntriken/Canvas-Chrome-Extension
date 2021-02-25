@@ -8,6 +8,4 @@ The extension can be used by any enrolled Chapman student by downloading and unp
 ## Why is this useful
 I created this Chrome extension to allow Chapman students the ability to check for any upcoming assignments from any webpage on Chrome. I am not the biggest fan of how Canvas displays their assignments and I think it takes too much time to check every course for upcoming assignments. This extension provides a much more convenient solution that students can interact with from any webpage on Chrome.
 
-![](https://imgur.com/a/kxH43W9)
-
-![An open source player](http://i.imgur.com/dNYswmI.gif)
+![](https://i.imgur.com/a/kxH43W9.gif)
