@@ -5,8 +5,7 @@ Disclaimer: This project is not available in the Chrome Web Store because the [C
 ## How does it work
 The extension can be used by any enrolled Chapman student by downloading and unpacking the folder into their Chrome browser. The extension does require the user to manually generate a Canvas API token in the settings from their Canvas account. This allows the program to pull the necessary information from their account such as list of enrolled courses, assignments, and due dates. The program does not store any information locally or send your information elsewhere. The extension simply pulls information from the user's Canvas profile and displays it using HTML on the extension.
 
-![](https://i.imgur.com/ZPpUy05.png =100x20)
-<img src="https://i.imgur.com/ZPpUy05.png" width="200">
+<img src="https://i.imgur.com/ZPpUy05.png" width="500">
 
 
 ## Why is this useful
